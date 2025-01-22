@@ -1,23 +1,8 @@
 <script lang="ts">
 import PageBanner from '@/components/PageBanner.vue';
-import { useGameStore } from '@/stores/game';
+import { useGameStore, type Game } from '@/stores/game';
 import { mapState } from 'pinia';
 
-interface Game {
-  id: number;
-  name: string;
-  image: string;
-  price?: number;
-  discountPrice?: number | string;
-  mostPlayed?: boolean;
-  isTrending?: boolean;
-  category: {
-    id: string | number;
-    name: string;
-  };
-  tags?: string[] | string;
-  description?: string
-}
 
 export default {
   components: {
@@ -69,7 +54,7 @@ export default {
               <span class="price"><em>${{ game.price }}</em></span>
               <span v-if="game.discountPrice || game.discountPrice === 0">${{
                 game.discountPrice
-                }}</span>
+              }}</span>
               <p>LUGX Gaming Template is based on the latest Bootstrap 5 CSS framework. This template is provided by
                 TemplateMo and it is suitable for your gaming shop ecommerce websites. Feel free to use this for any
                 purpose. Thank you.</p>

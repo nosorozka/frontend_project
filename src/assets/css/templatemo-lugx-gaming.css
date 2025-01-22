@@ -861,8 +861,9 @@ Services Style
 .features .item .image {
   width: 90px;
   height: 90px;
-  display: inline-block;
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   line-height: 90px;
   background-color: #0071f8;
   border-radius: 50%;

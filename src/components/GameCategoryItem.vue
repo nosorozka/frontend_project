@@ -11,9 +11,9 @@ export default {
       required: true
     },
   },
-  mounted() {
-    console.log(this.category);
-  },
+  // mounted() {
+  //   console.log(this.category);
+  // },
   data() { return {} },
 }
 </script>

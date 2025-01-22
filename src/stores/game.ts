@@ -30,7 +30,7 @@ export const useGameStore = defineStore('game', {
     mostPlayed: (state) => state.games.filter((game) => !game.isTrending),
   },
   actions: {
-    filteredGames(categoryId: number | string) {
+    filteredGames(categoryId: number | string): Game[] {
       if (categoryId === 0) return this.games;
 
       return this.games.filter((game) => game.category.id === categoryId);
