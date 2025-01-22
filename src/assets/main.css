@@ -1,0 +1,14 @@
+@import url('./css/templatemo-lugx-gaming.css');
+
+body {
+}
+
+#app {
+min-height: 100dvh;
+display: flex;
+flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

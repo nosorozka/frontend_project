@@ -1,0 +1,168 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name": "Warframe",
+            "image": "/images/single-warframe.jpeg",
+            "price": 28,
+            "discountPrice": 19.99,
+            "isTrending": true,
+            "category": {
+                "id": 5,
+                "name": "Action"
+            },
+            "tags": ["War", "Battle", "Royal"]
+        },
+        {
+            "id": 2,
+            "name": "Genshin Impact",
+            "image": "/images/single-genshinImpact.jpg",
+            "description": "Genshin Impact is an open-world, action role-playing game that allows the player to control one of four interchangeable characters in a party. Switching between characters can be done quickly during combat, allowing the player to use several different combinations of skills and attacks. <br> <br> Characters may have their abilities enhanced in various ways, mainly through directly leveling them up and improving the artifacts and weapons that a character can equip. In addition to exploration, the player can attempt various challenges for rewards. Scattered across Teyvat are bosses and challenges that reward highly valuable resources, but claiming them uses up a currency called Original Resin, which slowly regenerates over time. Completing these challenges grants the player progress towards increasing their Adventure Rank, which in turn unlocks new quests, challenges, and raises the World Level. The World Level is a measure of how strong the enemies within the world are and the rarity of rewards that defeating them gives.",
+            "tags": "#genshin #anime #cute",
+            "price": 44,
+            "discountPrice": 34.99,
+            "isTrending": true,
+            "category": {
+                "id": 3,
+                "name": "Fantasy Adventure"
+            }
+        },
+        {
+            "id": 3,
+            "name": "SUPER PEOPLE 2",
+            "image": "/images/single-superPeople.jpeg",
+            "price": 40,
+            "discountPrice": 34.99,
+            "isTrending": true,
+            "category": {
+                "id": 4,
+                "name": "Battle Royale"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Marvel Rivals",
+            "image": "/images/single-marvel.jpg",
+            "price": 15,
+            "discountPrice": 0,
+            "isTrending": true,
+            "category": {
+                "id": 2,
+                "name": "Superhero Strategy"
+            }
+        },
+        {
+            "id": 5,
+            "name": "DOTA 2",
+            "image": "/images/single-dota2.jpeg",
+            "isTrending": false,
+            "category": {
+                "id": 2,
+                "name": "Strategy"
+            }
+        },
+        {
+            "id": 6,
+            "name": "PUBG",
+            "image": "/images/single-pubg.jpg",
+            "isTrending": false,
+            "category": {
+                "id": 4,
+                "name": "Battle Royale"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Apex Legends",
+            "image": "/images/single-APEX.jpg",
+            "isTrending": false,
+            "category": {
+                "id": 4,
+                "name": "Battle Royale"
+            }
+        },
+        {
+            "id": 8,
+            "name": "The Sins 4",
+            "image": "/images/single-sims4.jpg",
+            "isTrending": false,
+            "category": {
+                "id": 6,
+                "name": "Casual"
+            }
+        },
+        {
+            "id": 9,
+            "name": "LOST ARK",
+            "image": "/images/single-lostArk.jpg",
+            "isTrending": false,
+            "category": {
+                "id": 2,
+                "name": "Strategy"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Destiny",
+            "image": "/images/single-destiny2.jpg",
+            "isTrending": false,
+            "category": {
+                "id": 5,
+                "name": "Action"
+            }
+        },       
+        {
+            "id": 11,
+            "name": "Assasin Creed",
+            "image": "/images/single-assasinCreed.jpeg",
+            "isTrending": false,
+            "category": {
+                "id": 5,
+                "name": "Action"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Bravhalla",
+            "image": "/images/single-bravhalla.jpg",
+            "isTrending": false,
+            "category": {
+                "id": 1,
+                "name": "Fighting"
+            }
+        }
+        
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Fighting",
+            "image": "/images/categories-01.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Strategy",
+            "image": "/images/categories-02.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Adventure",
+            "image": "/images/categories-03.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Battle Royale",
+            "image": "/images/categories-04.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Action",
+            "image": "/images/categories-05.jpg"
+        },        
+        {
+            "id": 6,
+            "name": "Casual",
+            "image": "/images/top-game-04.jpg"
+        }
+    ]
+}
